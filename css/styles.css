@@ -591,3 +591,57 @@ footer {
   .team-grid { grid-template-columns: 1fr; }
   .hero-btns { flex-direction: column; }
 }
+
+/* ============================================
+   ICON STYLES (replacing emojis)
+   ============================================ */
+.service-icon i,
+.why-icon i,
+.value-icon i {
+  font-size: 1.4rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.why-icon {
+  font-size: 1.8rem;
+  flex-shrink: 0;
+  width: 52px;
+  height: 52px;
+  background: rgba(74, 108, 247, 0.12);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.value-icon {
+  font-size: 1.6rem;
+  width: 52px;
+  height: 52px;
+  background: rgba(74, 108, 247, 0.12);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.service-visual {
+  font-size: 4rem;
+}
+
+.service-visual i {
+  font-size: 4rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.service-detail-icon i {
+  font-size: 2rem;
+  background: var(--gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
