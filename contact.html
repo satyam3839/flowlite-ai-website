@@ -1,130 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact — Flowlite AI</title>
-  <meta name="description" content="Get in touch with Flowlite AI. Let's talk about your project." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact — Flowlite</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
 </head>
 <body>
+<nav><div class="container nav-inner">
+  <a href="index.html" class="nav-logo">Flowlite</a>
+  <ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="services.html">What We Do</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html" class="active">Contact</a></li></ul>
+  <a href="contact.html" class="nav-cta">Book a Free Call</a>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+</div></nav>
 
-<nav>
-  <div class="container nav-inner">
-    <a href="index.html" class="nav-logo">Flowlite AI</a>
-    <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="services.html">Services</a></li>
-      <li><a href="contact.html" class="active">Contact</a></li>
-    </ul>
-    <a href="contact.html" class="nav-cta">Let's Talk</a>
-    <div class="hamburger"><span></span><span></span><span></span></div>
-  </div>
-</nav>
+<div class="page-hero"><div class="container">
+  <span class="section-label">Get In Touch</span>
+  <h1>Let's <span style="background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Talk</span></h1>
+  <p>No sales pitch. No tech talk. Just a real conversation about your business and how we can help you grow.</p>
+</div></div>
 
-<div class="page-hero">
-  <div class="container">
-    <span class="section-label">Contact Us</span>
-    <h1>Let's Build <span style="background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Something Great</span></h1>
-    <p>Have a project in mind? A question? Or just want to explore what's possible? We're here.</p>
-  </div>
-</div>
-
-<!-- CONTACT FORM -->
-<section>
-  <div class="container">
-    <div class="contact-grid">
-      <div class="contact-info reveal">
-        <h3>We respond within 24 hours</h3>
-        <p>Tell us about your project, your challenges, or just say hello. No sales pitch — just a real conversation about how we can help.</p>
-        <div class="contact-links">
-          <a href="mailto:hello@flowliteai.com" class="contact-link"><i class="fas fa-envelope"></i> hello@flowliteai.com</a>
-          <a href="https://linkedin.com" target="_blank" class="contact-link"><i class="fab fa-linkedin"></i> LinkedIn</a>
-          <a href="https://github.com" target="_blank" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
-        </div>
-        <div style="margin-top:40px;padding:24px;background:var(--bg-secondary);border:1px solid var(--border);border-radius:12px">
-          <div style="font-weight:700;margin-bottom:8px"><i class="fas fa-location-dot" style="color:var(--accent-primary);margin-right:8px"></i>Based in India</div>
-          <div style="color:var(--text-secondary);font-size:0.9rem">Working with clients globally.<br>Available Mon–Fri, 9am–7pm IST.</div>
-        </div>
+<section><div class="container">
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <h3>We respond within 24 hours</h3>
+      <p>Tell us about your business, what's hard, and what you wish was easier. That's all we need to get started.</p>
+      <div class="contact-links">
+        <a href="mailto:hello@flowlite.in" class="contact-link"><i class="fas fa-envelope"></i> hello@flowlite.in</a>
+        <a href="https://linkedin.com" target="_blank" class="contact-link"><i class="fab fa-linkedin"></i> Connect on LinkedIn</a>
+        <a href="https://github.com/satyam3839" target="_blank" class="contact-link"><i class="fab fa-github"></i> GitHub</a>
       </div>
-      <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-        <div class="form-row">
-          <div class="form-group"><label>Name *</label><input type="text" name="name" placeholder="Your full name" required /></div>
-          <div class="form-group"><label>Email *</label><input type="email" name="email" placeholder="your@email.com" required /></div>
-        </div>
-        <div class="form-row">
-          <div class="form-group"><label>Company</label><input type="text" name="company" placeholder="Your company name" /></div>
-          <div class="form-group"><label>Service Interested In</label>
-            <select name="service" style="background:var(--bg-primary);border:1px solid var(--border);border-radius:10px;padding:14px 16px;color:var(--text-primary);font-family:'DM Sans',sans-serif;font-size:0.95rem;outline:none;appearance:none">
-              <option value="">Select a service</option>
-              <option>AI Integration</option>
-              <option>Web Development</option>
-              <option>IT Consulting</option>
-              <option>Application Maintenance</option>
-              <option>QA & Testing</option>
-              <option>End-to-End Project Support</option>
-              <option>Not sure yet</option>
-            </select>
-          </div>
-        </div>
-        <div class="form-group"><label>Message *</label><textarea name="message" placeholder="Tell us about your project, timeline, and goals..." required style="min-height:160px"></textarea></div>
-        <button type="submit" class="btn-primary" style="width:100%;font-size:1rem">Send Message →</button>
-        <p style="color:var(--text-secondary);font-size:0.82rem;text-align:center;margin-top:8px">We'll get back to you within 24 hours.</p>
-      </form>
-    </div>
-  </div>
-</section>
-
-<!-- FAQ -->
-<section style="background:var(--bg-secondary);border-top:1px solid var(--border)">
-  <div class="container">
-    <div class="text-center reveal">
-      <span class="section-label">FAQ</span>
-      <h2 class="section-title">Common <span style="background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Questions</span></h2>
-    </div>
-    <div class="faq-list">
-      <div class="faq-item reveal">
-        <div class="faq-question">How long does a typical project take? <i class="fas fa-chevron-down"></i></div>
-        <div class="faq-answer">It depends on scope. A simple AI integration or website can take 2–4 weeks. A full end-to-end product typically runs 6–12 weeks. We'll give you a clear timeline after our first call.</div>
+      <div style="margin-top:32px;padding:24px;background:var(--accent-bg);border:1px solid #BFDBFE;border-radius:14px">
+        <div style="font-weight:700;color:var(--text);margin-bottom:6px"><i class="fas fa-location-dot" style="color:var(--accent);margin-right:8px"></i>Based in India</div>
+        <div style="color:var(--text-muted);font-size:0.9rem;line-height:1.6">Working with businesses across India and globally.<br>Available Mon–Fri, 9am–7pm IST.</div>
       </div>
-      <div class="faq-item reveal">
-        <div class="faq-question">Do you work with early-stage startups? <i class="fas fa-chevron-down"></i></div>
-        <div class="faq-answer">Absolutely. Some of our best work has been with early-stage teams who needed to move fast and build smart. We're comfortable with ambiguity and help you figure out what to build first.</div>
-      </div>
-      <div class="faq-item reveal">
-        <div class="faq-question">What does "low maintenance" actually mean? <i class="fas fa-chevron-down"></i></div>
-        <div class="faq-answer">It means we build solutions that don't need constant babysitting. Automated monitoring, self-healing processes, clear documentation, and handoff training — so your team can own it confidently after we're done.</div>
-      </div>
-      <div class="faq-item reveal">
-        <div class="faq-question">Can you work with our existing tech stack? <i class="fas fa-chevron-down"></i></div>
-        <div class="faq-answer">Yes. We don't force you to rewrite everything. We assess what you have, identify what needs to change, and integrate new solutions cleanly into your existing systems.</div>
+      <div style="margin-top:20px;padding:24px;background:var(--bg-soft);border:1px solid var(--border);border-radius:14px">
+        <div style="font-weight:700;color:var(--text);margin-bottom:6px"><i class="fas fa-clock" style="color:var(--accent);margin-right:8px"></i>Free 30-Minute Call</div>
+        <div style="color:var(--text-muted);font-size:0.9rem;line-height:1.6">Our first call is always free. No commitment, no pressure — just a conversation to see if we're the right fit for you.</div>
       </div>
     </div>
-  </div>
-</section>
-
-<footer>
-  <div class="container">
-    <div class="footer-inner">
-      <div>
-        <div class="footer-logo">Flowlite AI</div>
-        <div class="footer-tagline">We fill the gaps. You focus on growth.</div>
+    <form class="contact-form reveal" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div class="form-row">
+        <div class="form-group"><label>Your Name *</label><input type="text" name="name" placeholder="Rahul Sharma" required/></div>
+        <div class="form-group"><label>Email *</label><input type="email" name="email" placeholder="rahul@yourbusiness.com" required/></div>
       </div>
-      <ul class="footer-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </div>
-    <div class="footer-bottom">© 2025 Flowlite AI. All rights reserved.</div>
+      <div class="form-row">
+        <div class="form-group"><label>Phone (optional)</label><input type="tel" name="phone" placeholder="+91 98765 43210"/></div>
+        <div class="form-group"><label>Business Name</label><input type="text" name="business" placeholder="Your Business Name"/></div>
+      </div>
+      <div class="form-group">
+        <label>What are you interested in?</label>
+        <select name="service">
+          <option value="">Select one...</option>
+          <option>Smart Automation</option>
+          <option>Live Dashboard</option>
+          <option>AI Assistant</option>
+          <option>Website</option>
+          <option>Business Consultation</option>
+          <option>Ongoing Support</option>
+          <option>Not sure yet — just want to talk</option>
+        </select>
+      </div>
+      <div class="form-group"><label>What's your biggest challenge right now? *</label><textarea name="message" placeholder="Tell us what's slowing you down, what you wish was easier, or what goal you're trying to hit..." required style="min-height:140px"></textarea></div>
+      <button type="submit" class="btn btn-primary" style="width:100%">Send Message <i class="fas fa-paper-plane" style="margin-left:8px"></i></button>
+      <p style="color:var(--text-muted);font-size:0.82rem;text-align:center;margin-top:8px">We'll get back to you within 24 hours.</p>
+    </form>
   </div>
-</footer>
+</div></section>
 
+<section class="bg-soft"><div class="container">
+  <div class="text-center reveal">
+    <span class="section-label">Common Questions</span>
+    <h2 class="section-title">You Might Be <span style="background:var(--gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent">Wondering...</span></h2>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item reveal">
+      <div class="faq-question">Do I need to understand technology to work with you? <i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">Not at all. We explain everything in plain language. You don't need to know how it works — you just need to tell us what outcome you want. We handle the rest.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-question">How much does it cost? <i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">It depends on what you need. The first consultation is always free. After that, we give you a clear, fixed price — no surprises. Most projects start from ₹25,000 depending on scope.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-question">How long before I see results? <i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">Most clients see time savings from week one. A simple automation or dashboard can be live in 1–2 weeks. Larger projects take 4–8 weeks. We'll give you a clear timeline upfront.</div>
+    </div>
+    <div class="faq-item reveal">
+      <div class="faq-question">What if it doesn't work for my business? <i class="fas fa-chevron-down"></i></div>
+      <div class="faq-answer">We spend time understanding your business before we build anything. If we don't think we can genuinely help you, we'll tell you honestly in the first call — before any money changes hands.</div>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="container">
+  <div class="footer-inner">
+    <div><div class="footer-logo">Flowlite</div><div class="footer-tagline">We fill the gaps. You focus on growth.</div></div>
+    <ul class="footer-links"><li><a href="index.html">Home</a></li><li><a href="services.html">What We Do</a></li><li><a href="about.html">About</a></li><li><a href="contact.html">Contact</a></li></ul>
+  </div>
+  <div class="footer-bottom">&copy; 2025 Flowlite. All rights reserved.</div>
+</div></footer>
 <script src="js/main.js"></script>
-</body>
-</html>
+</body></html>
